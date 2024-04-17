@@ -3,6 +3,8 @@ on:
   push:
     branches:
     - master
+    paths:
+    - '_build_flag'
 
 jobs:
   provision-eks:
